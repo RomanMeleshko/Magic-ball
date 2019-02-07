@@ -1,0 +1,230 @@
+.global {
+    
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    background-color:  rgba(115, 30, 40, 0.5);
+    
+}
+.tableLeft {
+    
+    top: -12px;
+    left: 0.5%;
+    width: 50%;
+    height: 98%;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(100, 40, 30, 0.2);
+    
+}
+.tableLeft > p {
+    
+   top: 20px; 
+   left: 30px;
+   font-size: 17px;
+   color: lightblue;
+   position: relative;
+   font-family: Gill Sans, sans-serif;
+   
+}
+
+#questions {
+    
+    top: 10px;
+    left: 10px;
+    width: 90%;
+    height: 20px;
+    padding: 8px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(40, 119, 99, 0.5);
+    
+}
+#questions:hover {
+    
+    background-color: rgba(40, 119, 159, 0.5);
+    
+}
+#questions:disabled {
+    
+    color: gray;
+    
+}
+#button, #buttonReset {
+    
+    top: 30px;
+    left: 46%;
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgba(230, 230, 149, 0.5);
+    
+}
+#button:hover, #buttonReset:hover {
+    
+    background-color: rgba(150, 200, 149, 0.5);
+    
+}
+#buttonReset {
+    
+   top: 102px;
+   left: 10px;
+   width: 30%;
+   position: absolute;
+    
+}
+
+.ball {
+    
+    top: -90%;
+    left: 55%;
+    width: 370px;
+    height: 370px;
+    border-color: red;
+    position: relative;
+    border-radius: 200px;
+    box-shadow: 10px 60px 60px 3px gray;
+    background-color: rgba(16, 0, 128, 0.7);
+    
+}
+.interiorBall {
+    
+    top: 65px;
+    left: 65px;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    border-radius: 150px;
+    border: 1px solid black;
+    box-shadow: -20px -20px 50px 5px rgba(255, 240, 255, 0.3);
+    background-color: rgba(59, 255, 242, 0.7);
+    
+}
+.interiorBallTwo {
+    
+    top: 9px;
+    left: 9px;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 120px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    
+}
+.delta {
+    
+    top: 20px;
+    left: 200px;
+    width: 190px;
+    height: 190px;
+    word-wrap: normal;
+    color: whitesmoke;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+   
+    
+}
+#top {
+
+    top: 10px;
+    position: relative;
+    box-shadow: 0px 0px 15px 2px blueviolet;
+    
+}
+
+#left {
+    
+    top: 83px;
+    left: -45px;
+    position: relative;
+    transform: rotate(60deg);
+    box-shadow: 0px 0px 15px 2px blueviolet;
+    
+}
+#right {
+   
+    top: 74px;
+    left: 50px;
+    position: relative;
+    transform: rotate(-60deg);
+    box-shadow: 0px 0px 15px 2px blueviolet;
+     
+}
+.addClass1 {
+    
+   animation-name: move;
+   animation-duration: 10s;
+   animation-timing-function: linear;
+   
+}
+@keyframes move {
+    0% { transform: rotate(0deg); }
+    30% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+   
+}
+.tableLeft > .informText {
+    
+    top: 50px;
+    width: 85%;
+    height: 0px;
+    color: white;
+    position: relative;
+    font-family: Gill Sans, sans-serif;
+    
+}
+.color {
+    color: lightskyblue;
+}
+em > em {
+    color: lightskyblue;
+}
+.tooltype {
+    
+    z-index: 5;
+    width: 200px;
+    height: 22px;
+    overflow: hidden;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(250, 50, 149, 0.7);
+    
+}
+.slider {
+    
+    top: 270px;
+    left: 0px;
+    width: 85%;
+    height: 70px;
+    position: relative;
+    
+}
+.slider ul > li {
+    
+    float: left;     
+    list-style: none;
+    padding-left: 10px;
+    
+}
+img {
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}

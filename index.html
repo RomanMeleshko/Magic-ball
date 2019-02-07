@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Magic ball</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet" type="text/css">
+        <script  charset="utf-8" src="dist/main.js"></script>
+         
+    </head>
+    <body>
+        
+        <div class="global">
+            <div class="tableLeft">
+                <p><em>Введите Ваш вопрос</em></p>
+                <input id="questions" maxlength="200" value="">
+                <input id="button" type="button" value="Спросить">
+                <input id="buttonReset" type="button" value="Сбросить">
+                <p class="informText">
+                    <em>Это волшебный шар.Вы можите спосить его
+                    обо всем.Он сможет дать Вам подсказку на Ваш вопрос.<br><br>
+                    Задавайте Ваш вопрос по типу ответа 
+                    <em class="color">ДА</em> или <em>НЕТ</em></em><br><br>
+                    <em>Вы можите изменить цвет Magic ball по Вашиму желинию</em>
+                </p>
+                <p id="help" title="поле для ввода текста"></p>
+                <div class="slider">
+                    <ul>
+                        <li><img src="img/color1.png" alt="rgba(0, 212, 231, 0.7)"/></li> 
+                        <li><img src="img/color2.png" alt="rgba(239, 97, 234, 0.7)"/></li> 
+                        <li><img src="img/color3.png" alt="rgba(0, 231, 108, 0.7)"/></li> 
+                        <li><img src="img/color4.png" alt="rgba(255, 97, 138, 0.7)"/></li> 
+                        <li><img src="img/color5.png" alt="rgba(16, 0, 128, 0.7)"/></li> 
+                        <li><img src="img/color6.png" alt="rgba(230, 238, 98, 0.7)"/></li> 
+                    </ul>
+                </div>
+            </div>
+            <div class="ball">
+                <div class="interiorBall">
+                    <div class="interiorBallTwo">
+                        <div class="delta">
+                           <hr id="top"> 
+                           <hr id="left"> 
+                           <hr id="right"> 
+                           <p class="string"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

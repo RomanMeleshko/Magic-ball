@@ -1,1 +1,2 @@
 # Magic-ball
+# first step  
